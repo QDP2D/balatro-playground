@@ -1,5 +1,6 @@
-export enum Seal {
-    BLUE = 'blue',
-    RED = 'red',
-    PURPLE = 'purple'
+export type Seal = {
+    id: number
+    name: string
+    description: string
+    effect: () => void
 }
