@@ -1,3 +1,4 @@
+import HandsCard from "./HandsCard"
 import OptionsButton from "./OptionsButton"
 import RunInfoButton from "./RunInfoButton"
 
@@ -12,7 +13,7 @@ function MiscRow() {
             {/* Hands, Discards, Money, Ante, Round */}
             <div className="basis-2/3 flex flex-col gap-2">
                 <div className="basis-1/3 flex gap-2">
-                    <div className="basis-1/2 bg-gray-900 rounded">Hands</div>
+                    <HandsCard />
                     <div className="basis-1/2 bg-gray-900 rounded">Discards</div>
                 </div>
                 <div className="basis-1/3 flex">
