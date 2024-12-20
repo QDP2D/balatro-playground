@@ -16,7 +16,7 @@ function MiscRow() {
                     <div className="basis-1/2 bg-gray-900 rounded">Discards</div>
                 </div>
                 <div className="basis-1/3 flex">
-                    <div className="bg-gray-900 grow rounded max-h-full ">$$$</div>
+                    <div className="bg-gray-900 grow max-h-full rounded">$$$</div>
                 </div>
                 <div className="basis-1/3 flex gap-2">
                     <div className="basis-1/2 bg-gray-900 rounded">Ante</div>

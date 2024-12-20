@@ -1,6 +1,6 @@
 function OptionsButton() {
     return (
-        <button className="basis-1/2 bg-yellow-500 content-center justify-center rounded">
+        <button className="basis-1/2 bg-yellow-500 rounded">
             OPTIONS
         </button>
     )

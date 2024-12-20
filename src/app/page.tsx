@@ -1,5 +1,6 @@
 import GameBoard from "@/components/GameBoard";
-import Sidebar from "@/components/sidebar/Sidebar";
+import Sidebar from "@/components/sidebar";
+
 
 export default function App() {
   return (
