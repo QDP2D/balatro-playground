@@ -4,7 +4,7 @@ import TitleRow from "./TitleRow"
 
 function Sidebar() {
     return (
-        <aside className="col-span-3 bg-gray-800 text-white p-1 block flex flex-col">
+        <aside className="col-span-3 bg-gray-800 text-white gap-1 block flex flex-col">
             <TitleRow />
             <ScoringRow />
             <MiscRow />
