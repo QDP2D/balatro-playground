@@ -1,3 +1,4 @@
+import OptionsButton from "./OptionsButton"
 import RunInfoButton from "./RunInfoButton"
 
 function MiscRow() {
@@ -6,7 +7,7 @@ function MiscRow() {
             {/* Run Info and Options */}
             <div className="basis-1/3 flex flex-col gap-2">
                 <RunInfoButton />
-                <div className="basis-1/2 bg-yellow-500 rounded">options</div>
+                <OptionsButton />
             </div>
             {/* Hands, Discards, Money, Ante, Round */}
             <div className="basis-2/3 flex flex-col gap-2">

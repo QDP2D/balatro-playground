@@ -369,10 +369,6 @@ img, video {
   justify-content: center;
 }
 
-.gap-1 {
-  gap: .25rem;
-}
-
 .gap-2 {
   gap: .5rem;
 }
@@ -436,6 +432,10 @@ img, video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
 .text-xl {
