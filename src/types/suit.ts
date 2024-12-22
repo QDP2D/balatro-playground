@@ -1,4 +1,4 @@
-export enum Suit {
+export enum SuitEnum {
     CLUBS = 'clubs',
     DIAMONDS = 'diamonds',
     HEARTS = 'hearts',

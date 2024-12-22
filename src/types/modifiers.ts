@@ -1,46 +1,47 @@
-interface Modifier {
+interface ModifierType {
     name: string
-    descrption: string
-    effect: () => void
+    description: string
+    // effect: () => void
 }
 
 /* ===== EDITIONS ===== */
 
-export enum EditionType {
+export enum EditionEnum {
     FOIL = 'foil',
     HOLO = 'holographic',
-    NONE = 'no_edition',
+    NO_EDITION = 'no_edition',
     POLY = 'polychrome'
 }
 
-export interface Edition {
-    type: EditionType
+export interface EditionType extends ModifierType {
+    variant: EditionEnum.FOIL | EditionEnum.HOLO | EditionEnum.NO_EDITION | EditionEnum.POLY
 }
 
 /* ===== ENHANCEMENTS ===== */
-export enum EnhancementType {
+export enum EnhancementEnum {
     BONUS = 'bonus',
     GLASS = 'glass',
     MULT = 'mult',
-    NONE = 'no_enhancement',
+    NO_ENHANCEMENT = 'no_enhancement',
     STEEL = 'steel',
     STONE = 'stone',
     WILD = 'wild'
 }
 
-export interface Enhancement extends Modifier {
-    type: EnhancementType
+export interface EnhancementType extends ModifierType {
+    variant: EnhancementEnum.BONUS | EnhancementEnum.GLASS | EnhancementEnum.MULT | EnhancementEnum.NO_ENHANCEMENT | EnhancementEnum.STEEL | EnhancementEnum.STONE | EnhancementEnum.WILD
 }
 
 /* ===== SEALS ===== */
-export enum SealType {
+
+export enum SealEnum {
     BLUE = 'blue',
     GOLD = 'gold',
-    NONE = 'no_seal',
+    NO_SEAL = 'no_seal',
     PURPLE = 'purple',
     RED = 'red'
 }
 
-export interface Seal extends Modifier {
-    type: SealType
+export interface SealType extends ModifierType {
+    variant: SealEnum.BLUE | SealEnum.GOLD | SealEnum.NO_SEAL | SealEnum.PURPLE | SealEnum.RED
 }
