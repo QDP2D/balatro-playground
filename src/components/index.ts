@@ -1,2 +1,2 @@
-export * from './GameBoard'
+export * from './gameboard'
 export * from './sidebar'

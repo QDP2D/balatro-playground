@@ -9,7 +9,7 @@ interface Modifier {
 export enum EditionType {
     FOIL = 'foil',
     HOLO = 'holographic',
-    NONE = 'none',
+    NONE = 'no_edition',
     POLY = 'polychrome'
 }
 
@@ -22,7 +22,7 @@ export enum EnhancementType {
     BONUS = 'bonus',
     GLASS = 'glass',
     MULT = 'mult',
-    NONE = 'none',
+    NONE = 'no_enhancement',
     STEEL = 'steel',
     STONE = 'stone',
     WILD = 'wild'
@@ -36,7 +36,7 @@ export interface Enhancement extends Modifier {
 export enum SealType {
     BLUE = 'blue',
     GOLD = 'gold',
-    NONE = 'none',
+    NONE = 'no_seal',
     PURPLE = 'purple',
     RED = 'red'
 }
