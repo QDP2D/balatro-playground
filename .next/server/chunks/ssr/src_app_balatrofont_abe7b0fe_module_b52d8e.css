@@ -1,0 +1,26 @@
+/* [project]/src/app/balatrofont_abe7b0fe.module.css [app-client] (css) */
+@font-face {
+  font-family: balatroFont;
+  src: url("/_next/static/media/m6x11-s.p.fb9f2a49.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: balatroFont Fallback;
+  src: local(Arial);
+  ascent-override: 77.08%;
+  descent-override: 21.02%;
+  line-gap-override: 10.07%;
+  size-adjust: 89.19%;
+}
+
+.balatrofont_abe7b0fe-module__ZwUfhq__className {
+  font-family: balatroFont, balatroFont Fallback;
+}
+
+.balatrofont_abe7b0fe-module__ZwUfhq__variable {
+  --font-balatro: "balatroFont", "balatroFont Fallback";
+}
+
+/*# sourceMappingURL=src_app_balatrofont_abe7b0fe_module_b52d8e.css.map*/
