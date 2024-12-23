@@ -8,13 +8,16 @@ interface PlayingCardProps {
 function PlayingCard({ card } : PlayingCardProps) {
 
     return (
-        <Image
-            alt=""
-            className="object-scale-down"
-            height={100}
-            src={`/img/playingCards/${card.suit}/${card.edition}/${card.enhancement}/${card.seal}/${card.id}.png`}
-            width={75}
-            ></Image>
+        <div>
+            <Image
+                alt=""
+                className="object-scale-down"
+                height={100}
+                src={`/img/playingCards/${card.suit}/${card.edition}/${card.enhancement}/${card.seal}/${card.id}.png`}
+                width={75}
+                />
+            {/* <button>edit</button> figure out how to put this on the card */}
+        </div>
     )
 }
 
